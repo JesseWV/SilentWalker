@@ -19,11 +19,11 @@ namespace SilentWalker
             base.OnChange(field, oldValue, newValue);
             Instance.RefreshGUI();
         }
-        protected override void OnConfirm()
-        {
-            base.OnConfirm();
+        //protected override void OnConfirm()
+        //{
+        //    base.OnConfirm();
+        //}
 
-        }
         [Name("Silence Foot Steps")]
         [Description("Completely silence the sound of your own footsteps.\nTurning this on ignores the values below." +
             "\n(Applies instantly)")]
